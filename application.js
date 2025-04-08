@@ -15,4 +15,9 @@ function substractTwoNumbers( numberOne, numberTwo ) {
     return numberOne - numberTwo;
 }
 
+function calcHippotenusaValue( catetOne, catetTwo ) {
+    const hipponenusa = Math.sqrt(Math.pow(catetOne, 2) + Math.pow(catetTwo, 2));
+    return hipponenusa;
+}
+
 console.log(multiplyTwoNumbers(3, 7));
