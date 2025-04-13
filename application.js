@@ -20,4 +20,16 @@ function calcHippotenusaValue( catetOne, catetTwo ) {
     return hipponenusa;
 }
 
+// Дополнительные мат. функции
+function getSquareRoot( initialNumber ) {
+    const result = Math.sqrt(initialNumber);
+    return result;
+}
+
+function getPower( initialNumber, powerValue ) {
+    if (powerValue < 0) throw new Error('Пока рано использовать отрицательную степень');
+    const result = Math.pow(initialNumber, powerValue);
+    return result;
+}
+
 console.log(multiplyTwoNumbers(3, 7));
