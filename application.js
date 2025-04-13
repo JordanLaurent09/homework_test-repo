@@ -20,4 +20,17 @@ function calcHippotenusaValue( catetOne, catetTwo ) {
     return hipponenusa;
 }
 
+// Создание некторых геометрических функций
+function perimeter( sideOne, sideTwo ) {
+    return 2 * (sideOne + sideTwo);
+}
+
+function rectangleSquare( sideOne, sideTwo ) {
+    return sideOne * sideTwo;
+}
+
+function circleSquare ( radius ) {
+    return 2 * Math.PI * Math.pow(radius, 2);
+}
+
 console.log(multiplyTwoNumbers(3, 7));
