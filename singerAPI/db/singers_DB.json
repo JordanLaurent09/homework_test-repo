@@ -1,0 +1,20 @@
+[
+    {
+
+        "id": 1,
+        "name": "Linda",
+        "surname": "Scott",
+        "genre": "Pop",
+        "counrty": "USA"
+
+    },
+    {
+
+        "id": 2,
+        "name": "Connie",
+        "surname": "Stevens",
+        "genre": "Pop",
+        "counrty": "USA"
+
+    }
+]
